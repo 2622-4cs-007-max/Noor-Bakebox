@@ -54,17 +54,44 @@ function HomeSection() {
           Explore Our Menu
         </a>
 
-        {/* Slider Indicators */}
-        <div className="slider-dots">
-          {images.map((image, index) => (
-            <button
-              key={index}
-              className={currentImage === index ? "active" : ""}
-              onClick={() => setCurrentImage(index)}
-              aria-label={`Show slide ${index + 1}`}
-            />
-          ))}
-        </div>
+       {/* Slider Indicators */}
+<div className="slider-dots">
+  <button
+    className={currentImage === 0 ? "active" : ""}
+    onClick={() => setCurrentImage(0)}
+    aria-label="Show slide 1"
+  />
+
+  <button
+    className={currentImage === 1 ? "active" : ""}
+    onClick={() => setCurrentImage(1)}
+    aria-label="Show slide 2"
+  />
+
+  <button
+    className={currentImage === 2 ? "active" : ""}
+    onClick={() => setCurrentImage(2)}
+    aria-label="Show slide 3"
+  />
+
+  <button
+    className={currentImage === 3 ? "active" : ""}
+    onClick={() => setCurrentImage(3)}
+    aria-label="Show slide 4"
+  />
+
+  <button
+    className={currentImage === 4 ? "active" : ""}
+    onClick={() => setCurrentImage(4)}
+    aria-label="Show slide 5"
+  />
+
+  <button
+    className={currentImage === 5 ? "active" : ""}
+    onClick={() => setCurrentImage(5)}
+    aria-label="Show slide 6"
+  />
+</div>
       </div>
 
     </section>
