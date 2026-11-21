@@ -1,4 +1,5 @@
 import ShopHeader from "./components/layout/ShopHeader";
+import HomeSection from "./components/home/HomeSection";
 import ProductSection from "./components/products/ProductSection";
 import ReviewSection from "./components/reviews/ReviewSection";
 import Footer from "./components/layout/Footer";
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <ShopHeader />
+      <HomeSection />
       <ProductSection />
       <ReviewSection />
       <OrderInfo />

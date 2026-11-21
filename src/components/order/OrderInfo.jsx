@@ -11,8 +11,8 @@ function OrderInfo() {
   const total = quantity * price + delivery;
   return (
     <section className="order-section" id="order">
-      <h1 className="section-title">How to Order</h1>
-
+     <ScrollReveal><h1 className="section-title">How to Order</h1>
+</ScrollReveal> 
       <p>Place your order and enjoy our freshly baked treats!</p>
 
       <div className="order-container">

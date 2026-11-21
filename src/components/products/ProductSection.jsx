@@ -6,7 +6,7 @@ import ScrollReveal from "../ScrollReveal";
 function ProductSection() {
   return (
     <section className="product-section" >
-     <h1 className="section-title" id="menu">Our Delicious Treats</h1>
+     <ScrollReveal><h1 className="section-title" id="menu">Our Delicious Treats</h1></ScrollReveal>
       <p>Freshly baked with love!</p>
 
       {/* Scroll animation for product cards */}

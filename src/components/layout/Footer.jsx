@@ -13,7 +13,9 @@ function Footer() {
           bakery_dining
         </span>
 
-        <h2>Noor's Bake Box</h2>
+ <div className="footer-logo-text">
+  <h2>Noor's Bake Box</h2>
+</div>
         <p>Freshly baked with love, happiness in every bite!</p>
       </div>
 

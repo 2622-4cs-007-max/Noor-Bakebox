@@ -5,8 +5,8 @@ import ScrollReveal from "../ScrollReveal";
 function ReviewSection() {
   return (
     <section className="review-section" >
-<h1 className="section-title" id="reviews">What Our Customers Say</h1>
-      <p>Sweet words from our happy customers!</p>
+<ScrollReveal><h1 className="section-title" id="reviews">What Our Customers Say</h1>
+      <p>Sweet words from our happy customers!</p></ScrollReveal>
 
       <div className="review-container">
         <ScrollReveal>
