@@ -3,6 +3,7 @@ import nankhatai from "../../assets/nankhatai.jpg";
 import roll from "../../assets/roll.jpg";
 import biscuits from "../../assets/biscuits.jpg";
 import ScrollReveal from "../ScrollReveal";
+import ProductCard from "./ProductCard";
 
 
 function ProductSection() {
