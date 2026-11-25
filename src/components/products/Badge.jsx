@@ -1,8 +1,8 @@
 
-function Badge() {
+function Badge({text}) {
     return (
         <span className="badge">
-            Best Seller
+            {text}
         </span>
     );
 }
